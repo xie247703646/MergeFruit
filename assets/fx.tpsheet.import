@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/fx.tpsheet-038af8b2ca5b72521a9beff8f726819e.res"
+
+[deps]
+
+files=[ "res://assets/fx.sprites/celebrate_1.tres", "res://assets/fx.sprites/celebrate_2.tres", "res://assets/fx.sprites/celebrate_3.tres", "res://assets/fx.sprites/celebrate_4.tres", "res://assets/fx.sprites/celebrate_5.tres", "res://assets/fx.sprites/celebrate_6.tres", "res://assets/fx.sprites/celebrate_7.tres", "res://assets/fx.sprites/fx_1.tres", "res://assets/fx.sprites/fx_1_1.tres", "res://assets/fx.sprites/fx_2.tres", "res://assets/fx.sprites/fx_2_2.tres", "res://assets/fx.sprites/fx_3.tres", "res://assets/fx.sprites/fx_3_3.tres", "res://assets/fx.sprites/fx_4.tres", "res://assets/fx.sprites/fx_4_4.tres", "res://assets/fx.sprites/fx_5.tres", "res://assets/fx.sprites/fx_5_5.tres", "res://assets/fx.sprites/fx_6.tres", "res://assets/fx.sprites/fx_6_6.tres", "res://assets/fx.sprites/fx_7.tres", "res://assets/fx.sprites/fx_7_7.tres", "res://assets/fx.sprites/fx_8.tres", "res://assets/fx.sprites/fx_8_8.tres", "res://assets/fx.sprites/fx_9.tres", "res://assets/fx.sprites/fx_9_9.tres", "res://assets/fx.sprites/fx_10.tres", "res://assets/fx.sprites/fx_10_10.tres" ]
+
+source_file="res://assets/fx.tpsheet"
+dest_files=[ "res://.import/fx.tpsheet-038af8b2ca5b72521a9beff8f726819e.res", "res://assets/fx.sprites/celebrate_1.tres", "res://assets/fx.sprites/celebrate_2.tres", "res://assets/fx.sprites/celebrate_3.tres", "res://assets/fx.sprites/celebrate_4.tres", "res://assets/fx.sprites/celebrate_5.tres", "res://assets/fx.sprites/celebrate_6.tres", "res://assets/fx.sprites/celebrate_7.tres", "res://assets/fx.sprites/fx_1.tres", "res://assets/fx.sprites/fx_1_1.tres", "res://assets/fx.sprites/fx_2.tres", "res://assets/fx.sprites/fx_2_2.tres", "res://assets/fx.sprites/fx_3.tres", "res://assets/fx.sprites/fx_3_3.tres", "res://assets/fx.sprites/fx_4.tres", "res://assets/fx.sprites/fx_4_4.tres", "res://assets/fx.sprites/fx_5.tres", "res://assets/fx.sprites/fx_5_5.tres", "res://assets/fx.sprites/fx_6.tres", "res://assets/fx.sprites/fx_6_6.tres", "res://assets/fx.sprites/fx_7.tres", "res://assets/fx.sprites/fx_7_7.tres", "res://assets/fx.sprites/fx_8.tres", "res://assets/fx.sprites/fx_8_8.tres", "res://assets/fx.sprites/fx_9.tres", "res://assets/fx.sprites/fx_9_9.tres", "res://assets/fx.sprites/fx_10.tres", "res://assets/fx.sprites/fx_10_10.tres" ]
+
+[params]
+

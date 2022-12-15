@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/fruit.tpsheet-109f8fc6a58fb6aed0ed762ec88273f5.res"
+
+[deps]
+
+files=[ "res://assets/fruit.sprites/fruit_11.tres", "res://assets/fruit.sprites/fruit_10.tres", "res://assets/fruit.sprites/fruit_9.tres", "res://assets/fruit.sprites/fruit_8.tres", "res://assets/fruit.sprites/fruit_5.tres", "res://assets/fruit.sprites/fruit_4.tres", "res://assets/fruit.sprites/fruit_3.tres", "res://assets/fruit.sprites/fruit_6.tres", "res://assets/fruit.sprites/fruit_7.tres", "res://assets/fruit.sprites/fruit_2.tres", "res://assets/fruit.sprites/fruit_1.tres" ]
+
+source_file="res://assets/fruit.tpsheet"
+dest_files=[ "res://.import/fruit.tpsheet-109f8fc6a58fb6aed0ed762ec88273f5.res", "res://assets/fruit.sprites/fruit_11.tres", "res://assets/fruit.sprites/fruit_10.tres", "res://assets/fruit.sprites/fruit_9.tres", "res://assets/fruit.sprites/fruit_8.tres", "res://assets/fruit.sprites/fruit_5.tres", "res://assets/fruit.sprites/fruit_4.tres", "res://assets/fruit.sprites/fruit_3.tres", "res://assets/fruit.sprites/fruit_6.tres", "res://assets/fruit.sprites/fruit_7.tres", "res://assets/fruit.sprites/fruit_2.tres", "res://assets/fruit.sprites/fruit_1.tres" ]
+
+[params]
+

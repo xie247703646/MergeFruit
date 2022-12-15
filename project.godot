@@ -1,0 +1,91 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "RigidBody2D",
+"class": "Fruit",
+"language": "GDScript",
+"path": "res://scripts/Fruit.gd"
+}, {
+"base": "Reference",
+"class": "GameConfig",
+"language": "GDScript",
+"path": "res://scripts/GameConfig.gd"
+}, {
+"base": "Reference",
+"class": "UI",
+"language": "GDScript",
+"path": "res://scripts/UI.gd"
+}, {
+"base": "Control",
+"class": "UIBase",
+"language": "GDScript",
+"path": "res://scripts/UIBase.gd"
+}, {
+"base": "UIBase",
+"class": "UICelebrate",
+"language": "GDScript",
+"path": "res://scripts/UICelebrate.gd"
+} ]
+_global_script_class_icons={
+"Fruit": "",
+"GameConfig": "",
+"UI": "",
+"UIBase": "",
+"UICelebrate": ""
+}
+
+[application]
+
+config/name="MergeFruit"
+run/main_scene="res://scenes/Main.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+AudioMgr="*res://scripts/AudioMgr.gd"
+SignalMgr="*res://scripts/SignalMgr.gd"
+UIMgr="*res://scripts/UIMgr.gd"
+
+[display]
+
+window/size/width=720
+window/size/height=1280
+window/size/resizable=false
+window/size/always_on_top=true
+window/size/test_width=360
+window/size/test_height=640
+window/dpi/allow_hidpi=true
+window/handheld/orientation="portrait"
+window/stretch/mode="2d"
+window/stretch/aspect="keep"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/codeandweb.texturepacker/plugin.cfg" )
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[layer_names]
+
+2d_physics/layer_1="Fruit"
+2d_physics/layer_2="Floor"
+2d_physics/layer_3="Wall"
+2d_physics/layer_4="DeadLine"
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

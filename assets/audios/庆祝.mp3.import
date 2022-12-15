@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/庆祝.mp3-dddb343693b3bf0c20f6b35a2449b226.mp3str"
+
+[deps]
+
+source_file="res://assets/audios/庆祝.mp3"
+dest_files=[ "res://.import/庆祝.mp3-dddb343693b3bf0c20f6b35a2449b226.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/合成.mp3-52958b5126bd86651e98894d14bf17f7.mp3str"
+
+[deps]
+
+source_file="res://assets/audios/合成.mp3"
+dest_files=[ "res://.import/合成.mp3-52958b5126bd86651e98894d14bf17f7.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

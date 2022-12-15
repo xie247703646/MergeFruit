@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/落地.mp3-f65996929cb014453c15c8a768b5f1de.mp3str"
+
+[deps]
+
+source_file="res://assets/audios/落地.mp3"
+dest_files=[ "res://.import/落地.mp3-f65996929cb014453c15c8a768b5f1de.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

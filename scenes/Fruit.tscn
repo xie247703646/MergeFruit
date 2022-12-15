@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://scripts/Fruit.gd" type="Script" id=1]
+[ext_resource path="res://assets/fruit.sprites/fruit_1.tres" type="Texture" id=2]
+[ext_resource path="res://assets/audios/落地.mp3" type="AudioStream" id=3]
+
+[sub_resource type="CircleShape2D" id=1]
+resource_local_to_scene = true
+radius = 26.0
+
+[node name="Fruit" type="RigidBody2D" groups=["fruit"]]
+collision_mask = 7
+mass = 10.0
+gravity_scale = 15.0
+contacts_reported = 1
+contact_monitor = true
+linear_velocity = Vector2( 0, 1800 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="AudioOnFloor" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+
+[connection signal="body_entered" from="." to="." method="_on_Fruit_body_entered"]
